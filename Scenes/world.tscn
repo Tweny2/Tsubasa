@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://cyv36q7ay376s"]
+[gd_scene load_steps=6 format=3 uid="uid://cyv36q7ay376s"]
 
-[ext_resource type="Texture2D" uid="uid://cyxg1tih1snxk" path="res://Assets/Art/BG/pitch-background.png" id="1_a02cp"]
+[ext_resource type="Texture2D" uid="uid://cyxg1tih1snxk" path="res://Assets/Aseprite/BG/pitch-background.png" id="1_a02cp"]
 [ext_resource type="Texture2D" uid="uid://cybu8fc2ixih5" path="res://icon.svg" id="2_go701"]
-[ext_resource type="Texture2D" uid="uid://biy8hbvexghsl" path="res://Assets/Art/BG/pitch-pattern.png" id="3_5a7ea"]
-[ext_resource type="Texture2D" uid="uid://borrw5ui87ckd" path="res://Assets/Art/BG/pitch-lines.png" id="4_8j60k"]
+[ext_resource type="Texture2D" uid="uid://biy8hbvexghsl" path="res://Assets/Aseprite/BG/pitch-pattern.png" id="3_5a7ea"]
+[ext_resource type="Texture2D" uid="uid://borrw5ui87ckd" path="res://Assets/Aseprite/BG/pitch-lines.png" id="4_8j60k"]
+[ext_resource type="PackedScene" uid="uid://c8gng4ae0jrme" path="res://Scenes/Character/player.tscn" id="5_fo5ed"]
 
 [node name="World" type="Node2D"]
 
@@ -32,3 +33,8 @@ centered = false
 [node name="Lines" type="Sprite2D" parent="BG"]
 texture = ExtResource("4_8j60k")
 centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("5_fo5ed")]
+position = Vector2(113, 93)
