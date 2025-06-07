@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1749175836
+::res://::1749278895
 icon.svg::CompressedTexture2D/CompressedTexture2D::6460711530451950148::1748890398::1748890428::1::::<><><>0<>0<>2aa9153c2fec3eca9292a0695afd02b0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1749149528
 ::res://Assets/Aseprite/::1749064044
@@ -71,9 +71,9 @@ worldcup-label.png::CompressedTexture2D/CompressedTexture2D::7322187027929970721
 ::res://Assets/Fami/Music/::1748929787
 ::res://Assets/Fami/SFX/::1748929816
 ::res://Assets/Font/::1748929838
-::res://Scenes/::1749174179
-world.tscn::PackedScene::6502481872783301648::1749174179::0::1::::<><><>0<>0<><>::uid://cyxg1tih1snxk::::res://Assets/Aseprite/BG/pitch-background.png<>uid://cybu8fc2ixih5::::res://icon.svg<>uid://biy8hbvexghsl::::res://Assets/Aseprite/BG/pitch-pattern.png<>uid://borrw5ui87ckd::::res://Assets/Aseprite/BG/pitch-lines.png<>uid://c8gng4ae0jrme::::res://Scenes/Character/player.tscn
-::res://Scenes/Character/::1749175650
-player.tscn::PackedScene::7102261033027700920::1749175650::0::1::::<><><>0<>0<><>::uid://ditvukqo3d0h2::::res://Assets/Aseprite/Sprite/soccer-player.png<>uid://c8p41k28vswok::::res://Scripts/player.gd
-::res://Scripts/::1749175633
-player.gd::GDScript::7121846665655308286::1749175633::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Scenes/::1749215954
+world.tscn::PackedScene::6502481872783301648::1749215954::0::1::::<><><>0<>0<><>::uid://cyxg1tih1snxk::::res://Assets/Aseprite/BG/pitch-background.png<>uid://cybu8fc2ixih5::::res://icon.svg<>uid://biy8hbvexghsl::::res://Assets/Aseprite/BG/pitch-pattern.png<>uid://borrw5ui87ckd::::res://Assets/Aseprite/BG/pitch-lines.png<>uid://c8gng4ae0jrme::::res://Scenes/Character/player.tscn
+::res://Scenes/Character/::1749215969
+player.tscn::PackedScene::7102261033027700920::1749215969::0::1::::<><><>0<>0<><>::uid://ditvukqo3d0h2::::res://Assets/Aseprite/Sprite/soccer-player.png<>uid://c8p41k28vswok::::res://Scripts/player.gd
+::res://Scripts/::1749215953
+player.gd::GDScript::7121846665655308286::1749215953::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
